@@ -19,21 +19,33 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="siteNavDesktop">
-      <ul class="navbar-nav ms-auto mb-2 mb-xl-0 align-items-xl-center bma-navbar-links">
-        <li class="nav-item"><a class="nav-link" data-nav-link="index" href="./index.html" data-home-nav="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" data-nav-link="about" href="./about.html" data-home-nav="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="./programs.html" data-home-nav="#how-it-works">How It Works</a></li>
-        <li class="nav-item"><a class="nav-link" data-nav-link="subjects" href="./subjects.html" data-home-nav="#subjects">Subjects</a></li>
-        <li class="nav-item"><a class="nav-link" data-nav-link="programs" href="./programs.html" data-home-nav="#pricing">Programs</a></li>
-        <li class="nav-item"><a class="nav-link" data-nav-link="results" href="./results.html" data-home-nav="#results">Results</a></li>
-        <li class="nav-item"><a class="nav-link" href="./results.html" data-home-nav="#testimonials">Testimonials</a></li>
-        <li class="nav-item"><a class="nav-link" data-nav-link="faq" href="./faq.html" data-home-nav="#faq">FAQ</a></li>
-        <li class="nav-item"><a class="nav-link" data-nav-link="contact" href="./contact.html" data-home-nav="#contact">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" data-nav-link="blog" href="./blog.html">Blog</a></li>
-      </ul>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="siteNavOffcanvas" aria-labelledby="siteNavOffcanvasLabel">
+      <div class="offcanvas-header d-xl-none">
+        <div class="d-flex align-items-center gap-2">
+          <span class="brand-mark" aria-hidden="true">BM</span>
+          <div class="lh-1">
+            <h5 class="offcanvas-title mb-0" id="siteNavOffcanvasLabel">Bright Minds Academy</h5>
+            <small class="d-block brand-tagline">Personalized Learning. Proven Results.</small>
+          </div>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close navigation"></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column flex-xl-row align-items-xl-center w-100">
+        <ul class="navbar-nav flex-column flex-xl-row ms-xl-auto mb-2 mb-xl-0 align-items-xl-center gap-1 bma-navbar-links">
+          <li class="nav-item"><a class="nav-link" data-nav-link="index" href="./index.html" data-home-nav="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav-link="about" href="./about.html" data-home-nav="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="./programs.html" data-home-nav="#how-it-works">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav-link="subjects" href="./subjects.html" data-home-nav="#subjects">Subjects</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav-link="programs" href="./programs.html" data-home-nav="#pricing">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav-link="results" href="./results.html" data-home-nav="#results">Results</a></li>
+          <li class="nav-item"><a class="nav-link" href="./results.html" data-home-nav="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav-link="faq" href="./faq.html" data-home-nav="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav-link="contact" href="./contact.html" data-home-nav="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" data-nav-link="blog" href="./blog.html">Blog</a></li>
+        </ul>
 
-      <a class="btn btn-sm btn-brand-primary btn-demo d-none d-xl-inline-flex ms-xl-3" href="./booking.html" data-open-demo-modal="true">Book Free Demo</a>
+        <a class="btn btn-sm btn-brand-primary btn-demo w-100 w-xl-auto mt-3 mt-xl-0 ms-xl-3" href="./booking.html" data-open-demo-modal="true">Book Free Demo</a>
+      </div>
     </div>
   </div>
 </nav>
