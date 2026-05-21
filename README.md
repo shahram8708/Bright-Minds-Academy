@@ -72,7 +72,7 @@ To migrate to real APIs later, update this module without rewriting all pages.
 3. Email: brightmindsforedu@gmail.com
 
 ## Configurable Domain Note
-robots.txt and sitemap.xml currently use the placeholder production domain https://www.example.com.
+robots.txt and sitemap.xml currently use the placeholder production domain https://brightmindsacademy.vercel.app.
 Replace this value with your real production domain before deployment.
 
 ## Development Step Status

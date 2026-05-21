@@ -5,7 +5,7 @@
     "description": "Bright Minds Academy delivers premium personalized tutoring with expert mentors, measurable outcomes, and clear parent progress visibility.",
     "defaultLanguage": "en",
     "defaultLocale": "en_IN",
-    "defaultUrl": "https://www.example.com"
+    "defaultUrl": "https://brightmindsacademy.vercel.app"
   },
   "contact": {
     "phoneDisplay": "+91 72592 65766",
@@ -171,7 +171,7 @@
     "name": "Bright Minds Academy",
     "slogan": "Personalized Learning. Proven Results.",
     "description": "Premium personalized tutoring with measurable academic improvement and transparent parent reporting.",
-    "url": "https://www.example.com",
+    "url": "https://brightmindsacademy.vercel.app",
     "email": "brightmindsforedu@gmail.com",
     "telephone": "+91 72592 65766",
     "sameAs": [],
