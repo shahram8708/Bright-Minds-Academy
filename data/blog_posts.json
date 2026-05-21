@@ -1,0 +1,128 @@
+[
+  {
+    "id": "post-01",
+    "slug": "build-a-study-routine-that-actually-works",
+    "title": "How to Build a Study Routine That Actually Works",
+    "date": "2026-04-05",
+    "category": "Study Skills",
+    "excerpt": "A practical framework for students and parents to create a realistic weekly study rhythm without burnout.",
+    "author": "Bright Minds Academic Team",
+    "readTime": "6 min read",
+    "image": "https://source.unsplash.com/1600x900/?study,student,desk",
+    "imageAlt": "Student planning a weekly timetable at a desk",
+    "tags": [
+      "study routine",
+      "time management",
+      "parent guidance"
+    ],
+    "relatedPostIds": [
+      "post-03",
+      "post-04"
+    ]
+  },
+  {
+    "id": "post-02",
+    "slug": "improving-math-confidence-in-middle-school",
+    "title": "Improving Math Confidence in Middle School",
+    "date": "2026-04-18",
+    "category": "Mathematics",
+    "excerpt": "Discover methods tutors use to turn hesitation into confidence through concept sequencing and practice loops.",
+    "author": "Senior Math Mentor Desk",
+    "readTime": "7 min read",
+    "image": "https://source.unsplash.com/1600x900/?math,student,tutor",
+    "imageAlt": "Tutor helping a middle school student solve math problems",
+    "tags": [
+      "math tutoring",
+      "confidence",
+      "middle school"
+    ],
+    "relatedPostIds": [
+      "post-01",
+      "post-05"
+    ]
+  },
+  {
+    "id": "post-03",
+    "slug": "parent-checklist-before-exam-season",
+    "title": "Parent Checklist Before Exam Season",
+    "date": "2026-04-27",
+    "category": "Parent Support",
+    "excerpt": "A focused checklist for managing revision plans, stress signals, and progress communication during exam months.",
+    "author": "Parent Success Unit",
+    "readTime": "5 min read",
+    "image": "https://source.unsplash.com/1600x900/?exam,planning,student",
+    "imageAlt": "Parent reviewing an exam preparation checklist",
+    "tags": [
+      "exam preparation",
+      "parent checklist",
+      "student support"
+    ],
+    "relatedPostIds": [
+      "post-01",
+      "post-06"
+    ]
+  },
+  {
+    "id": "post-04",
+    "slug": "how-progress-tracking-improves-learning-outcomes",
+    "title": "How Progress Tracking Improves Learning Outcomes",
+    "date": "2026-05-02",
+    "category": "Learning Strategy",
+    "excerpt": "Understand why visible goals, milestone reviews, and feedback cycles improve student consistency over time.",
+    "author": "Learning Operations Team",
+    "readTime": "8 min read",
+    "image": "https://source.unsplash.com/1600x900/?progress,chart,learning",
+    "imageAlt": "Tutor reviewing progress graphs with a parent",
+    "tags": [
+      "progress tracking",
+      "learning outcomes",
+      "mentor feedback"
+    ],
+    "relatedPostIds": [
+      "post-01",
+      "post-03"
+    ]
+  },
+  {
+    "id": "post-05",
+    "slug": "science-revision-techniques-for-better-retention",
+    "title": "Science Revision Techniques for Better Retention",
+    "date": "2026-05-10",
+    "category": "Science",
+    "excerpt": "Use retrieval practice and chapter mapping to improve science recall and answer quality.",
+    "author": "Science Faculty Panel",
+    "readTime": "6 min read",
+    "image": "https://source.unsplash.com/1600x900/?science,student,notebook",
+    "imageAlt": "Student revising science notes with color coded diagrams",
+    "tags": [
+      "science",
+      "revision",
+      "memory"
+    ],
+    "relatedPostIds": [
+      "post-02",
+      "post-06"
+    ]
+  },
+  {
+    "id": "post-06",
+    "slug": "choosing-the-right-tutor-fit-for-your-child",
+    "title": "Choosing the Right Tutor Fit for Your Child",
+    "date": "2026-05-16",
+    "category": "Parent Support",
+    "excerpt": "A practical guide to evaluating tutor communication style, subject depth, and learner compatibility before long term enrollment.",
+    "author": "Admissions Guidance Team",
+    "readTime": "7 min read",
+    "image": "https://source.unsplash.com/1600x900/?tutor,parent,education",
+    "imageAlt": "Parent speaking with an online tutor during consultation",
+    "tags": [
+      "tutor match",
+      "admissions",
+      "parent decision"
+    ],
+    "relatedPostIds": [
+      "post-03",
+      "post-05"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "icon": "bi-calculator",
+    "gradeRange": "Grades 4 to 12",
+    "shortDescription": "Concept based math coaching for stronger fundamentals and score growth.",
+    "longDescription": "Structured math learning covering arithmetic fluency, algebra, geometry, and advanced problem solving with weekly assessments.",
+    "ctaText": "Explore Math Support",
+    "ctaLink": "./booking.html?subject=mathematics"
+  },
+  {
+    "id": "science",
+    "name": "Science",
+    "icon": "bi-lightbulb",
+    "gradeRange": "Grades 4 to 10",
+    "shortDescription": "Integrated science mentoring with real world understanding.",
+    "longDescription": "Balanced theory and application focused lessons in general science to build curiosity, conceptual clarity, and exam confidence.",
+    "ctaText": "Explore Science Support",
+    "ctaLink": "./booking.html?subject=science"
+  },
+  {
+    "id": "english",
+    "name": "English",
+    "icon": "bi-journal-text",
+    "gradeRange": "Grades 3 to 12",
+    "shortDescription": "Reading, writing, grammar, and communication improvement.",
+    "longDescription": "Targeted English tutoring focused on comprehension, essay writing, vocabulary development, grammar precision, and spoken confidence.",
+    "ctaText": "Explore English Support",
+    "ctaLink": "./booking.html?subject=english"
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "icon": "bi-speedometer2",
+    "gradeRange": "Grades 9 to 12",
+    "shortDescription": "Step by step physics tutoring for conceptual depth.",
+    "longDescription": "Mentor guided physics sessions with numericals, derivations, and practical interpretation to build strong analytical reasoning.",
+    "ctaText": "Explore Physics Support",
+    "ctaLink": "./booking.html?subject=physics"
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "icon": "bi-beaker",
+    "gradeRange": "Grades 9 to 12",
+    "shortDescription": "Physical, organic, and inorganic chemistry coaching.",
+    "longDescription": "Topic wise chemistry classes emphasizing formulas, reactions, mechanisms, and memory techniques for strong exam performance.",
+    "ctaText": "Explore Chemistry Support",
+    "ctaLink": "./booking.html?subject=chemistry"
+  },
+  {
+    "id": "biology",
+    "name": "Biology",
+    "icon": "bi-tree",
+    "gradeRange": "Grades 8 to 12",
+    "shortDescription": "Visual and concept rich biology tutoring support.",
+    "longDescription": "Detailed biology mentoring for diagrams, terminology, and process understanding to improve retention and written expression.",
+    "ctaText": "Explore Biology Support",
+    "ctaLink": "./booking.html?subject=biology"
+  },
+  {
+    "id": "commerce",
+    "name": "Commerce",
+    "icon": "bi-graph-up-arrow",
+    "gradeRange": "Grades 11 to 12",
+    "shortDescription": "Accounts, economics, and business studies guidance.",
+    "longDescription": "Commerce specialists support students in accounting methods, economic reasoning, and business case based learning.",
+    "ctaText": "Explore Commerce Support",
+    "ctaLink": "./booking.html?subject=commerce"
+  },
+  {
+    "id": "history",
+    "name": "History",
+    "icon": "bi-clock-history",
+    "gradeRange": "Grades 6 to 12",
+    "shortDescription": "Chronology focused history classes with recall strategies.",
+    "longDescription": "Narrative driven history lessons with timeline mapping and answer structuring techniques for better retention and writing quality.",
+    "ctaText": "Explore History Support",
+    "ctaLink": "./booking.html?subject=history"
+  },
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "icon": "bi-laptop",
+    "gradeRange": "Grades 8 to 12",
+    "shortDescription": "Coding and computational thinking mentorship.",
+    "longDescription": "Computer science support across programming logic, algorithms, and practical project guidance with student friendly pacing.",
+    "ctaText": "Explore Computer Science Support",
+    "ctaLink": "./booking.html?subject=computer-science"
+  }
+]

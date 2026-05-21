@@ -1,0 +1,37 @@
+[
+  {
+    "id": "step-01",
+    "order": 1,
+    "title": "Book Demo",
+    "icon": "bi-calendar-check",
+    "description": "Choose a convenient slot and submit basic learner details for the first interaction."
+  },
+  {
+    "id": "step-02",
+    "order": 2,
+    "title": "Assessment",
+    "icon": "bi-clipboard-data",
+    "description": "A short academic review helps identify strengths, gaps, and ideal focus areas."
+  },
+  {
+    "id": "step-03",
+    "order": 3,
+    "title": "Tutor Match",
+    "icon": "bi-people",
+    "description": "Students are matched with a tutor based on subject goals, level, and learning style."
+  },
+  {
+    "id": "step-04",
+    "order": 4,
+    "title": "Personalized Plan",
+    "icon": "bi-journal-check",
+    "description": "A clear learning roadmap is set with targets, session cadence, and milestones."
+  },
+  {
+    "id": "step-05",
+    "order": 5,
+    "title": "Track Progress",
+    "icon": "bi-graph-up",
+    "description": "Parents receive structured updates with measurable progress indicators over time."
+  }
+]

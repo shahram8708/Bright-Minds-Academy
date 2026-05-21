@@ -1,0 +1,111 @@
+body[data-page="faq"] {
+  overflow-x: hidden;
+}
+
+.faq-hero {
+  background:
+    radial-gradient(circle at 14% 20%, rgba(201, 168, 76, 0.2), transparent 46%),
+    radial-gradient(circle at 84% 18%, rgba(37, 99, 235, 0.12), transparent 46%),
+    linear-gradient(180deg, rgba(248, 249, 251, 0.96), rgba(255, 255, 255, 0.98));
+}
+
+.faq-hero-panel {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(10, 22, 40, 0.1);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.95), rgba(245, 249, 255, 0.92));
+  box-shadow: var(--shadow-sm);
+  padding: clamp(1.1rem, 3vw, 1.6rem);
+}
+
+.faq-hero-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  color: #334155;
+  margin-bottom: 0.75rem;
+}
+
+.faq-hero-list li:last-child {
+  margin-bottom: 0;
+}
+
+.faq-hero-list i {
+  color: var(--color-gold);
+  margin-top: 0.2rem;
+}
+
+.faq-search-panel {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(10, 22, 40, 0.1);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  padding: clamp(1.2rem, 3vw, 1.8rem);
+}
+
+.faq-search-form .form-control,
+.faq-search-form .btn,
+.faq-search-form .input-group-text {
+  min-height: 48px;
+}
+
+.faq-search-form .input-group-text {
+  background-color: rgba(10, 22, 40, 0.05);
+  border: 1px solid rgba(10, 22, 40, 0.12);
+}
+
+.faq-category-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.faq-category-card {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(10, 22, 40, 0.1);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  padding: 1.2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.faq-category-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.faq-category-description {
+  color: #5f6b84;
+  margin-bottom: 0;
+}
+
+.faq-category-badge {
+  flex-shrink: 0;
+}
+
+.faq-category-card .accordion-button {
+  font-weight: var(--font-weight-semibold);
+}
+
+.faq-category-card .accordion-item {
+  border: none;
+  border-bottom: 1px solid rgba(10, 22, 40, 0.08);
+}
+
+.faq-category-card .accordion-item:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 991.98px) {
+  .faq-category-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .faq-hero .btn {
+    width: 100%;
+  }
+}

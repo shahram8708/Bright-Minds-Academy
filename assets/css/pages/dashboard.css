@@ -1,0 +1,17 @@
+.dashboard-shell {
+  background-color: var(--color-surface);
+  border: 1px solid rgba(10, 22, 40, 0.1);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.dashboard-nav {
+  border-bottom: 1px solid rgba(10, 22, 40, 0.08);
+}
+
+.metric-tile {
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(10, 22, 40, 0.08);
+  background: linear-gradient(170deg, #ffffff, #f7f9fd);
+  padding: 1rem;
+}

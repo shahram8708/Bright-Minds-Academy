@@ -1,0 +1,113 @@
+<div class="modal fade demo-modal" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title h5" id="demoModalLabel">Book Your Free Demo</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close demo booking modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <p class="small text-muted mb-3">Share your details and we will match your child with the right tutor and schedule your free demo class.</p>
+
+        <form
+          id="demo-request-form"
+          data-lead-form
+          data-form-id="demo-modal-form"
+          data-lead-type="demo_booking"
+          data-honeypot-field-name="website"
+          data-cooldown-ms="45000"
+          data-success-message="Thank you. Your demo request has been received. Our team will contact you within one business day with the next steps."
+          novalidate
+        >
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="demoParentName" class="form-label">Parent Name</label>
+              <input type="text" class="form-control" id="demoParentName" name="parentName" required minlength="2" data-minlength="2" />
+            </div>
+
+            <div class="col-md-6">
+              <label for="demoStudentName" class="form-label">Student Name</label>
+              <input type="text" class="form-control" id="demoStudentName" name="studentName" required minlength="2" data-minlength="2" />
+            </div>
+
+            <div class="col-md-6">
+              <label for="demoGrade" class="form-label">Grade</label>
+              <select id="demoGrade" class="form-select" name="grade" required>
+                <option value="">Select grade</option>
+                <option value="Grade 4">Grade 4</option>
+                <option value="Grade 5">Grade 5</option>
+                <option value="Grade 6">Grade 6</option>
+                <option value="Grade 7">Grade 7</option>
+                <option value="Grade 8">Grade 8</option>
+                <option value="Grade 9">Grade 9</option>
+                <option value="Grade 10">Grade 10</option>
+                <option value="Grade 11">Grade 11</option>
+                <option value="Grade 12">Grade 12</option>
+              </select>
+            </div>
+
+            <div class="col-md-6">
+              <label for="demoPreferredTime" class="form-label">Preferred Session Time</label>
+              <select id="demoPreferredTime" class="form-select" name="preferredTime" required>
+                <option value="">Select preferred time</option>
+                <option value="Weekday Afternoon">Weekday Afternoon</option>
+                <option value="Weekday Evening">Weekday Evening</option>
+                <option value="Weekend Morning">Weekend Morning</option>
+                <option value="Weekend Afternoon">Weekend Afternoon</option>
+                <option value="Flexible">Flexible</option>
+              </select>
+            </div>
+
+            <div class="col-12">
+              <label for="demoSubjects" class="form-label">Subjects of Concern</label>
+              <select id="demoSubjects" class="form-select" name="subjects" required multiple size="6" aria-describedby="demoSubjectsHint">
+                <option value="Mathematics">Mathematics</option>
+                <option value="Science">Science</option>
+                <option value="English">English</option>
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Biology">Biology</option>
+                <option value="Commerce">Commerce</option>
+                <option value="History">History</option>
+                <option value="Computer Science">Computer Science</option>
+              </select>
+              <p id="demoSubjectsHint" class="form-text mb-0">Hold Ctrl or Command to select multiple subjects.</p>
+            </div>
+
+            <div class="col-md-6">
+              <label for="demoPhone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="demoPhone" name="phone" required data-validate-phone="true" />
+            </div>
+
+            <div class="col-md-6">
+              <label for="demoEmail" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="demoEmail" name="email" required data-validate-email="true" />
+            </div>
+
+            <div class="col-12">
+              <label for="demoMessage" class="form-label">Message</label>
+              <textarea id="demoMessage" class="form-control" name="message" rows="3" minlength="20" data-minlength="20" required></textarea>
+            </div>
+
+            <div class="col-12">
+              <label for="demoSelectedPlanDisplay" class="form-label">Selected Plan</label>
+              <input id="demoSelectedPlanDisplay" class="form-control" type="text" data-demo-plan-display value="Not selected" readonly />
+              <input type="hidden" id="demoSelectedPlan" name="plan" value="" />
+            </div>
+          </div>
+
+          <div class="visually-hidden" aria-hidden="true">
+            <label for="demoWebsite">Website</label>
+            <input type="text" id="demoWebsite" name="website" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <p class="small text-muted mt-3 mb-2">Your details are used only for demo scheduling and tutoring consultation. We do not collect sensitive payment or identity data in this form.</p>
+
+          <div class="alert alert-success mt-3" data-form-status hidden></div>
+
+          <button type="submit" class="btn btn-brand-primary w-100" data-submit-text="Submit Demo Request">Submit Demo Request</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

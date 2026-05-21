@@ -1,0 +1,56 @@
+[
+  {
+    "id": "test-01",
+    "name": "Neha S.",
+    "role": "Parent",
+    "rating": 5,
+    "quote": "The tutor built confidence in mathematics within weeks. Our daughter now solves problems independently and asks better questions in class.",
+    "childGrade": "Grade 7",
+    "avatarInitials": "NS"
+  },
+  {
+    "id": "test-02",
+    "name": "Rahul M.",
+    "role": "Parent",
+    "rating": 5,
+    "quote": "Progress updates are clear and actionable. We always know what was covered and what to focus on before the next session.",
+    "childGrade": "Grade 9",
+    "avatarInitials": "RM"
+  },
+  {
+    "id": "test-03",
+    "name": "Aisha K.",
+    "role": "Student",
+    "rating": 5,
+    "quote": "Science felt difficult before, but now concepts are broken down step by step. I feel prepared and less stressed before tests.",
+    "childGrade": "Grade 8",
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "test-04",
+    "name": "Vikram P.",
+    "role": "Parent",
+    "rating": 4,
+    "quote": "Scheduling flexibility helped us stay consistent despite a busy school routine. The tutor communication has been professional and supportive.",
+    "childGrade": "Grade 10",
+    "avatarInitials": "VP"
+  },
+  {
+    "id": "test-05",
+    "name": "Maya R.",
+    "role": "Parent",
+    "rating": 5,
+    "quote": "The English mentoring improved writing quality and confidence in oral presentations. We saw steady growth over the term.",
+    "childGrade": "Grade 6",
+    "avatarInitials": "MR"
+  },
+  {
+    "id": "test-06",
+    "name": "Harish D.",
+    "role": "Parent",
+    "rating": 5,
+    "quote": "Tutor matching was thoughtful and accurate. My son connected quickly with the mentor and remained consistent throughout the plan.",
+    "childGrade": "Grade 11",
+    "avatarInitials": "HD"
+  }
+]

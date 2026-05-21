@@ -1,0 +1,195 @@
+{
+  "site": {
+    "name": "Bright Minds Academy",
+    "tagline": "Personalized Learning. Proven Results.",
+    "description": "Bright Minds Academy delivers premium personalized tutoring with expert mentors, measurable outcomes, and clear parent progress visibility.",
+    "defaultLanguage": "en",
+    "defaultLocale": "en_IN",
+    "defaultUrl": "https://www.example.com"
+  },
+  "contact": {
+    "phoneDisplay": "+91 72592 65766",
+    "phoneRaw": "+917259265766",
+    "whatsapp": "+91 72592 65766",
+    "email": "brightmindsforedu@gmail.com"
+  },
+  "apps": {
+    "ios": "https://apps.apple.com/in/app/eskooly/id6448073356",
+    "android": "https://play.google.com/store/apps/details?id=com.eskooly.app&pcampaignid=web_share"
+  },
+  "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980954.5546280022!2d75.06589442501364!3d14.133047554749224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15d52cd4b9ff%3A0xe255fa3ba521085a!2sBright%20Minds%20Academy%20Koramangala%7C%20Best%20Tution%20in%20Koramangala!5e0!3m2!1sen!2sin!4v1779338004757!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "youtube": ""
+  },
+  "whatsappDefaultMessage": "Hi, I\u2019m interested in Bright Minds Academy. I would like to know more about your tutoring programs.",
+  "brandStats": [
+    {
+      "id": "students",
+      "label": "Students Supported",
+      "value": "2000+",
+      "numericValue": 2000,
+      "suffix": "+",
+      "prefix": "",
+      "description": "Trusted by families across multiple curriculum pathways."
+    },
+    {
+      "id": "countries",
+      "label": "Countries Served",
+      "value": "40+",
+      "numericValue": 40,
+      "suffix": "+",
+      "prefix": "",
+      "description": "Global online tutoring coverage with flexible scheduling."
+    },
+    {
+      "id": "improvement",
+      "label": "Improvement Rate",
+      "value": "95%",
+      "numericValue": 95,
+      "suffix": "%",
+      "prefix": "",
+      "description": "Students report measurable progress with structured support."
+    },
+    {
+      "id": "experience",
+      "label": "Years of Experience",
+      "value": "3+",
+      "numericValue": 3,
+      "suffix": "+",
+      "prefix": "",
+      "description": "Consistent mentoring frameworks across grades and subjects."
+    }
+  ],
+  "seo": {
+    "defaultImage": "assets/img/hero/og-default.jpg",
+    "twitterCard": "summary_large_image",
+    "pages": {
+      "index": {
+        "title": "Bright Minds Academy | Personalized Learning. Proven Results.",
+        "description": "Premium personalized tutoring for school learners with expert mentors, structured plans, and transparent progress tracking for parents.",
+        "canonicalPath": "/",
+        "ogType": "website"
+      },
+      "about": {
+        "title": "About Bright Minds Academy | Trusted Personalized Tutoring",
+        "description": "Learn how Bright Minds Academy supports student growth with mentor quality, academic planning, and parent focused progress visibility.",
+        "canonicalPath": "/about",
+        "ogType": "website"
+      },
+      "programs": {
+        "title": "Programs | Flexible Tutoring Plans for Every Learner",
+        "description": "Explore structured tutoring plans built around student needs, weekly consistency, and outcomes driven coaching.",
+        "canonicalPath": "/programs",
+        "ogType": "website"
+      },
+      "subjects": {
+        "title": "Subjects | Expert Support Across Core Academics",
+        "description": "Browse core subjects taught by experienced tutors with curriculum aligned guidance and concept clarity sessions.",
+        "canonicalPath": "/subjects",
+        "ogType": "website"
+      },
+      "results": {
+        "title": "Results | Student Progress and Performance Outcomes",
+        "description": "See how targeted tutoring and progress tracking help students improve scores, confidence, and learning consistency.",
+        "canonicalPath": "/results",
+        "ogType": "website"
+      },
+      "booking": {
+        "title": "Book Free Demo | Bright Minds Academy",
+        "description": "Book a free demo class and get a personalized learning recommendation from Bright Minds Academy.",
+        "canonicalPath": "/booking",
+        "ogType": "website"
+      },
+      "contact": {
+        "title": "Contact Bright Minds Academy | Call, Email, WhatsApp",
+        "description": "Connect with Bright Minds Academy for admissions, program guidance, and parent support through phone, email, or WhatsApp.",
+        "canonicalPath": "/contact",
+        "ogType": "website"
+      },
+      "faq": {
+        "title": "FAQ | Bright Minds Academy Support and Policies",
+        "description": "Find answers about demo classes, scheduling, tutor quality, pricing plans, and progress reporting.",
+        "canonicalPath": "/faq",
+        "ogType": "website"
+      },
+      "blog": {
+        "title": "Learning Blog | Parent and Student Success Guides",
+        "description": "Read practical learning guides from Bright Minds Academy on study habits, exam planning, and student motivation.",
+        "canonicalPath": "/blog",
+        "ogType": "website"
+      },
+      "blog-post": {
+        "title": "Blog Article | Bright Minds Academy Insights",
+        "description": "In depth educational guidance designed for parents and students who want clear, actionable learning outcomes.",
+        "canonicalPath": "/blog-post",
+        "ogType": "article"
+      },
+      "profile": {
+        "title": "Student Profile | Bright Minds Academy",
+        "description": "Review student profile information, learning preferences, and personalized support details.",
+        "canonicalPath": "/profile",
+        "ogType": "website"
+      },
+      "dashboard": {
+        "title": "Parent Dashboard | Bright Minds Academy",
+        "description": "Track sessions, updates, and progress signals in one clear dashboard experience.",
+        "canonicalPath": "/dashboard",
+        "ogType": "website"
+      },
+      "admin": {
+        "title": "Admin Workspace | Bright Minds Academy",
+        "description": "Manage tutoring operations, communication workflows, and student support pipelines.",
+        "canonicalPath": "/admin",
+        "ogType": "website"
+      },
+      "privacy": {
+        "title": "Privacy Policy | Bright Minds Academy",
+        "description": "Understand how Bright Minds Academy handles data privacy and communication records in this static prototype phase.",
+        "canonicalPath": "/privacy",
+        "ogType": "website"
+      },
+      "terms": {
+        "title": "Terms and Conditions | Bright Minds Academy",
+        "description": "Read the terms of use for Bright Minds Academy services, booking workflows, and communication channels.",
+        "canonicalPath": "/terms",
+        "ogType": "website"
+      }
+    }
+  },
+  "address": {
+    "branchName": "Bright Minds Academy Koramangala",
+    "city": "Bengaluru",
+    "region": "Karnataka",
+    "country": "India"
+  },
+  "organizationSchema": {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Bright Minds Academy",
+    "slogan": "Personalized Learning. Proven Results.",
+    "description": "Premium personalized tutoring with measurable academic improvement and transparent parent reporting.",
+    "url": "https://www.example.com",
+    "email": "brightmindsforedu@gmail.com",
+    "telephone": "+91 72592 65766",
+    "sameAs": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bengaluru",
+      "addressRegion": "Karnataka",
+      "addressCountry": "IN"
+    },
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "India"
+      },
+      {
+        "@type": "Place",
+        "name": "40+ countries"
+      }
+    ]
+  }
+}

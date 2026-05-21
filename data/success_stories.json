@@ -1,0 +1,57 @@
+[
+  {
+    "id": "story-01",
+    "studentInitial": "AR",
+    "grade": "Grade 8",
+    "subject": "Mathematics",
+    "beforeScore": 58,
+    "afterScore": 81,
+    "durationWeeks": 12,
+    "outcome": "Improved concept accuracy and test pacing.",
+    "quote": "The weekly practice strategy made difficult chapters manageable."
+  },
+  {
+    "id": "story-02",
+    "studentInitial": "NM",
+    "grade": "Grade 10",
+    "subject": "Science",
+    "beforeScore": 62,
+    "afterScore": 84,
+    "durationWeeks": 14,
+    "outcome": "Stronger fundamentals and better answer structure.",
+    "quote": "I now understand why concepts work, not just what to memorize."
+  },
+  {
+    "id": "story-03",
+    "studentInitial": "SK",
+    "grade": "Grade 7",
+    "subject": "English",
+    "beforeScore": 64,
+    "afterScore": 82,
+    "durationWeeks": 10,
+    "outcome": "Writing clarity and grammar consistency improved.",
+    "quote": "Feedback after every class helped me improve faster."
+  },
+  {
+    "id": "story-04",
+    "studentInitial": "PD",
+    "grade": "Grade 11",
+    "subject": "Physics",
+    "beforeScore": 55,
+    "afterScore": 76,
+    "durationWeeks": 16,
+    "outcome": "Confidence in numericals and conceptual reasoning increased.",
+    "quote": "Problem solving methods became simpler with guided steps."
+  },
+  {
+    "id": "story-05",
+    "studentInitial": "TJ",
+    "grade": "Grade 12",
+    "subject": "Chemistry",
+    "beforeScore": 60,
+    "afterScore": 83,
+    "durationWeeks": 15,
+    "outcome": "Better retention and exam readiness in core units.",
+    "quote": "The revision map made final exam preparation much clearer."
+  }
+]

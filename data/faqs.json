@@ -1,0 +1,92 @@
+[
+  {
+    "id": "faq-01",
+    "category": "Pricing",
+    "question": "How are Bright Minds Academy plans priced?",
+    "answer": "We offer three structured plans with monthly and multi month options. Each plan differs by duration, mentoring depth, and progress support level."
+  },
+  {
+    "id": "faq-02",
+    "category": "Demo Class",
+    "question": "Is the demo class free?",
+    "answer": "Yes, the first demo class is free. It helps parents and students understand tutor fit, class flow, and subject expectations before enrollment."
+  },
+  {
+    "id": "faq-03",
+    "category": "Tutors",
+    "question": "What qualifications do tutors have?",
+    "answer": "Tutors are selected based on subject expertise, teaching clarity, student engagement quality, and consistent mentoring performance."
+  },
+  {
+    "id": "faq-04",
+    "category": "Session Format",
+    "question": "Are sessions one on one or group based?",
+    "answer": "The foundation model is personalized support with strong tutor attention. Session format can vary based on student needs and chosen plan."
+  },
+  {
+    "id": "faq-05",
+    "category": "Progress Tracking",
+    "question": "How do parents track student progress?",
+    "answer": "Parents receive structured updates that include topic coverage, performance trend notes, and recommended next focus areas."
+  },
+  {
+    "id": "faq-06",
+    "category": "Scheduling",
+    "question": "Can we choose preferred class timings?",
+    "answer": "Yes, scheduling is planned around student routine and tutor availability. We aim for consistent slots for better learning rhythm."
+  },
+  {
+    "id": "faq-07",
+    "category": "Rescheduling",
+    "question": "What is your class rescheduling policy?",
+    "answer": "If informed in advance, sessions can be rescheduled based on tutor calendar availability. Frequent last minute changes may affect slot continuity."
+  },
+  {
+    "id": "faq-08",
+    "category": "Refunds",
+    "question": "Do you provide refunds?",
+    "answer": "Refund handling depends on service stage and plan terms. Parents can contact support for a clear case specific review."
+  },
+  {
+    "id": "faq-09",
+    "category": "Parent Communication",
+    "question": "How often do parents receive updates?",
+    "answer": "Update frequency depends on plan level, with regular summaries and milestone communication provided throughout the cycle."
+  },
+  {
+    "id": "faq-10",
+    "category": "Dashboard",
+    "question": "Will parents get a dashboard view?",
+    "answer": "Yes, the dashboard foundation is part of this project and is designed to surface key learning indicators and engagement metrics."
+  },
+  {
+    "id": "faq-11",
+    "category": "Contact",
+    "question": "Can I contact support through WhatsApp?",
+    "answer": "Yes, you can reach us through WhatsApp at +91 72592 65766 for enrollment questions and support guidance."
+  },
+  {
+    "id": "faq-12",
+    "category": "Online Learning",
+    "question": "Do students need special software for classes?",
+    "answer": "Students usually need a stable internet connection, a device with audio support, and access to our preferred class tools."
+  },
+  {
+    "id": "faq-13",
+    "category": "Mobile App",
+    "question": "Is app access available for families?",
+    "answer": "Yes, iOS and Android app links are available for families who prefer mobile friendly updates and class access workflows."
+  },
+  {
+    "id": "faq-14",
+    "category": "Plan Selection",
+    "question": "How do I choose the right plan for my child?",
+    "answer": "We recommend starting with a free demo so we can assess goals, learning gaps, and weekly availability. Our team then recommends the best plan."
+  },
+  {
+    "id": "faq-15",
+    "category": "Tutor Matching",
+    "question": "How do you match students with the right tutor?",
+    "answer": "We match tutors based on subject expertise, grade level, learning style, and schedule fit to ensure consistent progress and confidence."
+  }
+]

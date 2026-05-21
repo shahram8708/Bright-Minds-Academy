@@ -1,0 +1,75 @@
+[
+  {
+    "id": "starter",
+    "name": "Starter Plan",
+    "price": 499,
+    "currency": "$",
+    "period": "month",
+    "badge": "",
+    "sessions": 12,
+    "sessionsPerWeek": 3,
+    "sessionDuration": "60 minutes",
+    "features": [
+      "1-on-1 expert tutoring",
+      "Personalized study plan",
+      "Session recordings",
+      "Weekly parent summary",
+      "Progress tracking"
+    ],
+    "ctaText": "Book Starter Plan",
+    "ctaLink": "./booking.html?plan=starter",
+    "highlighted": false
+  },
+  {
+    "id": "growth",
+    "name": "Growth Plan",
+    "price": 899,
+    "currency": "$",
+    "period": "2 months",
+    "badge": "MOST POPULAR",
+    "sessions": 24,
+    "sessionsPerWeek": 3,
+    "sessionDuration": "60 minutes",
+    "features": [
+      "1-on-1 expert tutoring",
+      "Personalized study plan",
+      "Session recordings",
+      "Weekly parent summary",
+      "Progress tracking",
+      "Assessment support",
+      "Exam preparation support",
+      "Priority scheduling",
+      "Parent consultation"
+    ],
+    "ctaText": "Book Growth Plan",
+    "ctaLink": "./booking.html?plan=growth",
+    "highlighted": true
+  },
+  {
+    "id": "elite",
+    "name": "Elite Plan",
+    "price": 1199,
+    "currency": "$",
+    "period": "3 months",
+    "badge": "",
+    "sessions": 36,
+    "sessionsPerWeek": 3,
+    "sessionDuration": "60 minutes",
+    "features": [
+      "1-on-1 expert tutoring",
+      "Personalized study plan",
+      "Session recordings",
+      "Weekly parent summary",
+      "Progress tracking",
+      "Assessment support",
+      "Exam preparation support",
+      "Priority scheduling",
+      "Parent consultation",
+      "Premium resource access",
+      "Dedicated academic mentor"
+    ],
+    "ctaText": "Book Elite Plan",
+    "ctaLink": "./booking.html?plan=elite",
+    "highlighted": false
+  }
+]

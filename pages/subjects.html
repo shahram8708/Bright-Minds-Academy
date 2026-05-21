@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-root-path="../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subjects Offered | Subject Wise Tutoring at Bright Minds Academy</title>
+  <meta name="description" content="Explore subject wise tutoring, mathematics tutoring, science tutoring, and personalized subject mentorship at Bright Minds Academy." />
+  <link rel="canonical" href="https://www.example.com/subjects" />
+  <meta property="og:site_name" content="Bright Minds Academy" />
+  <meta property="og:title" content="Subjects Offered | Bright Minds Academy" />
+  <meta property="og:description" content="View subject wise tutoring with expert mentors in mathematics, science, English, and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.example.com/subjects" />
+  <meta property="og:image" content="../assets/img/hero/og-default.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Subjects Offered | Bright Minds Academy" />
+  <meta name="twitter:description" content="Personalized subject mentorship across core academic areas, led by expert tutors." />
+  <meta name="twitter:image" content="../assets/img/hero/og-default.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../design-tokens.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/components.css" />
+  <link rel="stylesheet" href="../assets/css/animations.css" />
+  <link rel="stylesheet" href="../assets/css/utilities.css" />
+  <link rel="stylesheet" href="../assets/css/pages/conversion.css" />
+</head>
+<body data-page="subjects" data-navbar-variant="solid">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div data-component="alert-toast"></div>
+  <div data-component="navbar"></div>
+
+  <main id="main-content" class="page-main" tabindex="-1">
+    <section class="conversion-hero section-space" aria-labelledby="subjects-hero-title">
+      <div class="container container-narrow">
+        <p class="section-label mb-3">Subjects Offered</p>
+        <h1 id="subjects-hero-title" class="mb-3 reveal">Subject wise tutoring built around every learner.</h1>
+        <p class="lead mb-0 reveal">Bright Minds Academy pairs students with expert mentors in mathematics tutoring, science tutoring, English, and more for personalized subject mentorship.</p>
+      </div>
+    </section>
+
+    <section class="section-space-sm" aria-labelledby="subjects-grid-title">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3 mb-4">
+          <div>
+            <p class="section-label mb-2 reveal">Subject Support</p>
+            <h2 id="subjects-grid-title" class="mb-2 reveal">Explore the subjects we teach across grades 4 to 12.</h2>
+            <p class="mb-0 text-muted reveal">Select a subject to inquire and book a free demo class with a dedicated tutor.</p>
+          </div>
+          <a href="./booking.html" class="btn btn-brand-outline" data-open-demo-modal="true">Book Free Demo</a>
+        </div>
+        <div class="row g-4" data-subjects-grid aria-live="polite" aria-busy="true"></div>
+      </div>
+    </section>
+
+    <section class="section-space-sm subject-guidance" aria-labelledby="subjects-guidance-title">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-5">
+            <p class="section-label mb-2 reveal">How Subject Mentorship Works</p>
+            <h2 id="subjects-guidance-title" class="mb-3 reveal">Every subject plan is built for clarity, confidence, and progress.</h2>
+            <p class="mb-0 text-muted reveal">We diagnose learning gaps, match students with the right tutor, and track weekly outcomes so parents always know what is happening.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <article class="guidance-card reveal">
+                  <h3 class="h5 mb-2">Diagnose learning gaps</h3>
+                  <p class="mb-0">We start with a quick assessment to identify topics that need immediate support.</p>
+                </article>
+              </div>
+              <div class="col-md-6">
+                <article class="guidance-card reveal">
+                  <h3 class="h5 mb-2">Match with an expert tutor</h3>
+                  <p class="mb-0">Students are paired with mentors who specialize in the exact subject and grade level.</p>
+                </article>
+              </div>
+              <div class="col-md-6">
+                <article class="guidance-card reveal">
+                  <h3 class="h5 mb-2">Build a personalized study plan</h3>
+                  <p class="mb-0">Each subject plan outlines weekly goals, session focus, and measurable milestones.</p>
+                </article>
+              </div>
+              <div class="col-md-6">
+                <article class="guidance-card reveal">
+                  <h3 class="h5 mb-2">Track progress weekly</h3>
+                  <p class="mb-0">We monitor performance and adjust the plan to keep results consistent.</p>
+                </article>
+              </div>
+              <div class="col-12">
+                <article class="guidance-card reveal">
+                  <h3 class="h5 mb-2">Keep parents informed</h3>
+                  <p class="mb-0">Parents receive updates on topics covered, improvements, and next steps each week.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-component="cta-strip"></div>
+  <div data-component="footer"></div>
+  <div data-component="whatsapp-float"></div>
+  <div data-component="demo-modal"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="../assets/js/pages/subjects.js"></script>
+  <script type="module" src="../assets/js/main.js"></script>
+</body>
+</html>

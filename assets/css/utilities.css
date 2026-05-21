@@ -1,0 +1,147 @@
+.text-navy {
+  color: var(--color-navy) !important;
+}
+
+.text-gold {
+  color: var(--color-gold) !important;
+}
+
+.text-muted-brand {
+  color: #5f6b84 !important;
+}
+
+.bg-navy {
+  background-color: var(--color-navy) !important;
+}
+
+.bg-gold-soft {
+  background-color: rgba(201, 168, 76, 0.18) !important;
+}
+
+.bg-brand-light {
+  background-color: var(--color-bg-light) !important;
+}
+
+.shadow-soft {
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.shadow-medium {
+  box-shadow: var(--shadow-md) !important;
+}
+
+.rounded-brand {
+  border-radius: var(--radius-lg) !important;
+}
+
+.rounded-pill-brand {
+  border-radius: var(--radius-pill) !important;
+}
+
+.py-section {
+  padding-block: var(--section-space-y) !important;
+}
+
+.py-section-sm {
+  padding-block: var(--section-space-y-sm) !important;
+}
+
+.gap-brand-1 {
+  gap: var(--space-4) !important;
+}
+
+.gap-brand-2 {
+  gap: var(--space-6) !important;
+}
+
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-12);
+  color: var(--color-navy);
+}
+
+.premium-badge {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(120deg, var(--color-light-gold), #fff8e8);
+  color: #6b4b00;
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-semibold);
+}
+
+.max-w-content {
+  max-width: 70ch;
+}
+
+.max-w-md {
+  max-width: 48rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.overflow-clip {
+  overflow: clip;
+}
+
+.safe-top-padding {
+  padding-top: calc(var(--space-8) + env(safe-area-inset-top));
+}
+
+.safe-bottom-padding {
+  padding-bottom: calc(var(--space-8) + env(safe-area-inset-bottom));
+}
+
+.u-hide-mobile {
+  display: none !important;
+}
+
+.u-hide-desktop {
+  display: initial !important;
+}
+
+.loading-card {
+  border-color: rgba(10, 22, 40, 0.06);
+}
+
+.placeholder-wave {
+  display: block;
+  width: 100%;
+  height: 0.95rem;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, rgba(10, 22, 40, 0.08) 0%, rgba(10, 22, 40, 0.15) 50%, rgba(10, 22, 40, 0.08) 100%);
+  background-size: 220% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+.placeholder-sm {
+  width: 72%;
+  height: 0.8rem;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .u-hide-mobile {
+    display: initial !important;
+  }
+
+  .u-hide-desktop {
+    display: none !important;
+  }
+}
